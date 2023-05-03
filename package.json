@@ -1,0 +1,28 @@
+{
+	"name": "wb-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --watch './*.ts' --exec \"ts-node\" ./bot/bot.ts",
+		"dev": "concurrently \"tsc --watch\" \"nodemon ./bot/bot.ts\""
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@typegoose/typegoose": "^10.1.1",
+		"@types/node-telegram-bot-api": "^0.57.7",
+		"axios": "^1.3.3",
+		"concurrently": "^7.6.0",
+		"dayjs": "^1.11.7",
+		"dotenv": "^16.0.3",
+		"mongoose": "^6.9.1",
+		"node-telegram-bot-api": "^0.61.0",
+		"nodemon": "^2.0.20"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.1",
+		"tslint": "^6.1.3",
+		"typescript": "^4.9.5"
+	}
+}

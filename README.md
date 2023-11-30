@@ -9,3 +9,4 @@ This bot allows you to manage/automate actions in your wildberries.ru seller acc
 - [x] Order management
 - [x] Statistic service
 - [x] Smart notification service
+      
